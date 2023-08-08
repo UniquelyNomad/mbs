@@ -9,7 +9,7 @@ $website= $_POST['website'];
 $system= $_POST['system'];
 $notes= $_POST['notes'];
 
-$to = "Carrie@modernbillingsolutions.com";
+$to = "eric@ericweaver.us";
 $subjectLine = "Contact Form Modern Billing Solutions: " . $subject;
 $txt ="Name = ". $name . "\r\nEmail = " . $email . "\r\nRole =" . $role . "\r\nPhone = " . $phone . "\r\nPractice = " . $practice . "\r\nWebsite = " . $website . "\r\nSystem = " . $system . "\r\nNote = " . $notes;
 $headers = "From: info@ericweaver.us";
