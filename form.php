@@ -17,5 +17,5 @@ if($email!=NULL){
     mail($to,$subjectLine,$txt,$headers);
 }
 //redirect
-header("Location:./contact");
+header("Location:modernbillingsolutions.com/contact");
 ?>
