@@ -1,0 +1,297 @@
+body {
+    font-family: Playfair Display;
+    font-weight: 400;
+    font-size: small;
+    background-color: #3d6f83;
+    /*#efefef old*/
+}
+
+p {
+    font-size: 1rem;
+    color: black;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: Playfair Display;
+    font-weight: 600;
+    color: black;
+}
+
+h1 {
+    padding-bottom: 25px;
+}
+
+h2 {
+    font-size: 26px;
+    padding-bottom: 15px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+ul {
+    list-style: circle;
+}
+
+li {
+    font-size: 16px;
+}
+
+.favs {
+    max-width: 50px;
+}
+
+#top-bar {
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+#upper-callto {}
+
+.upper {
+    background-image: url("images/bg-hero-desktop.svg");
+    background-color: hsl(0, 0%, 100%);
+}
+
+.upper .row {
+    padding: 150px 0;
+    padding-bottom: 50px;
+}
+
+#calltobtn {
+    margin-top: 20px;
+}
+
+#try {
+    filter: drop-shadow(0 0 0.1rem black);
+}
+
+#top-img {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img-top {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 80%;
+}
+
+.lower {
+    padding-top: 100px;
+    padding-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    color: white;
+}
+
+.lower p {
+    font-size: 20px;
+}
+
+.lower p,
+.lower h2,
+.lower li {
+    color: white;
+}
+
+.text-inrow {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 18px;
+    padding: 20px;
+}
+
+.lower_c {
+    padding: 40px 0;
+}
+
+.share {
+    float: right;
+}
+
+.share i {
+    font-size: medium;
+    border: thin solid;
+    border-radius: 50%;
+    padding: 5px;
+    box-sizing: border-box;
+    color: white;
+}
+
+@media (min-width: 1400px) {
+    #top-bar {
+        padding-bottom: 80px;
+    }
+}
+
+.lower-callto {
+    position: relative;
+    color: black;
+}
+
+.banner {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    /*background-image: url("images/bg-pattern-card.svg"); */
+}
+
+.callto-shape {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(-12.5%);
+    background-color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+}
+
+.callto-text {
+    padding: 10px;
+}
+
+.contact-form {
+    text-align: left;
+    padding: 0 60px;
+}
+
+.footer {
+    margin-top: 100px;
+    background-color: #97bbc9;
+    color: white;
+}
+
+.footer h2 {
+    color: white;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #97bbc9;
+    border-color: #97bbc9;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #6c8994;
+    border-color: #6c8994;
+}
+
+.call-btn {
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 20px;
+}
+
+.lower-callto h2 {
+    color: black;
+}
+
+@media (min-width: 992px) {
+    .callto-shape {
+        max-width: 700px;
+    }
+}
+
+.footer-info {
+    padding-bottom: 60px;
+}
+
+.footer-img {
+    padding-bottom: 40px;
+}
+
+.footer-img img {
+    filter: brightness(0) invert(1);
+}
+
+.footer-contact .col {
+    padding-bottom: 20px;
+}
+
+.copy-info {
+    float: right;
+}
+
+@media (max-width: 767px) {
+    #img-top {
+        position: unset;
+    }
+    #upper-callto {
+        text-align: center;
+        padding-top: 0px;
+        padding-bottom: 20px;
+        margin-top: -40px;
+    }
+    #img-top {
+        position: relative;
+        top: 0;
+        bottom: 0;
+        display: flex;
+    }
+    .upper .row {
+        padding: 0;
+    }
+    .contact-form {
+        text-align: center;
+        padding: 0;
+    }
+    .callto-shape {
+        max-width: 90%;
+    }
+    .footer-info {
+        padding-bottom: 40px;
+        text-align: center;
+    }
+    .share,
+    .copy-info {
+        text-align: center;
+        padding-bottom: 10px;
+        float: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .lower {
+        max-width: 85%;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0%;
+    }
+    .lower-rows {
+        line-height: 250px;
+    }
+    .lower li {
+        margin: 10px 0;
+        text-align: left;
+    }
+    .text-inrow {
+        padding: 0;
+    }
+    .footer-info {
+        padding-bottom: 40px;
+    }
+}
