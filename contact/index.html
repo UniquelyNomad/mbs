@@ -22,8 +22,6 @@
                 <div class="col-md-6" id="upper-callto">
                     <div>
                         <h1>Your message has been received</h1>
-                        <strong style="font-size: large;">
-                            Redirecting in <span id="timer"></span> seconds</strong>
                     </div>
                 </div>
             </div>
@@ -34,9 +32,9 @@
     <script>
         setTimeout(function() {
             window.location.href = '../';
-        }, 8000);
+        }, 2000);
 
-        var count = 8;
+        var count = 2;
         var counter = setInterval(timer, 1000); //1000 will  run it every 1 second
         function timer() {
             count = count - 1;
@@ -45,15 +43,6 @@
                 //counter ended, do something here
                 return;
             }
-        }
-
-        function timer() {
-            count = count - 1;
-            if (count <= 0) {
-                clearInterval(counter);
-                return;
-            }
-            document.getElementById("timer").innerHTML = count; // watch for spelling
         }
     </script>
 
